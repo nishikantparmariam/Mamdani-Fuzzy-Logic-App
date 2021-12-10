@@ -4,6 +4,8 @@ This repository contains simulink files that implement an Emergency Alert Androi
 
 **See the demo video [here](https://www.youtube.com/watch?v=-zVNOG2WCnU&list=PLoLZwK9ryVfe_2H1-wBAL3OWbL5Du3fRt).**
 
+**MATLAB File Exchange - [here](https://in.mathworks.com/matlabcentral/fileexchange/102915-mamdani-fuzzy-logic-app)**
+
 
 Applications in real life
 
