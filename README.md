@@ -55,7 +55,7 @@ Designing an emergency alert app using the accelerometer and the microphone sign
 - Setting up Andriod apps on both devices and using appropriate service and characteristic for Bluetooth. This was solved by following the  [documentation](https://in.mathworks.com/help/supportpkg/android/ref/work-with-ble-blocks-on-android-devices.html) from Mathworks.
 - The sender device keeps sending (0, 0, 0) as Lat, Long, Alt GPS location to the receiver device when there is no emergency, and when it detects emergency it sends the actual GPS location. 
 - Here, the problem is once the emergency level is detected (i.e. it becomes 1), GPS location is sent to receiver device but in the next clock tick the emergency signal would become 0. Hence, on the receiver device the GPS location would be shown only for fraction of time.
-- To resolve this, [pesistant](https://in.mathworks.com/help/matlab/ref/persistent.html?searchHighlight=persistent&s_tid=srchtitle_persistent_1) keyword was used to build a state machine on sender device. 
+- To resolve this, [persistant](https://in.mathworks.com/help/matlab/ref/persistent.html?searchHighlight=persistent&s_tid=srchtitle_persistent_1) keyword was used to build a state machine on sender device. 
 - Whenever a new emergency is detected, the current new GPS location is sent from BLE Send otherwise the sender device keeps sending previously detected GPS location (when previous emergency was detected). If no new emergency is detected, the sender device keeps sending current GPS location and it is shown persistently in receiver device. Initially (0, 0, 0) is sent if no emergency has been detected.
 
 
