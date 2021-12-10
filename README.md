@@ -1,6 +1,6 @@
 # Emergency Alert App Using Mamdani Fuzzy Logic
 
-This repository contains simulink files that implement an Emergency Alert Android App. The app sends device's GPS location to another nearby device using Bluetooth on detection of emergency. Two methods have been discussed for detecting the level of emergency based on surrouding audio level and acceleration of the device. 
+This repository contains simulink files that implement an Emergency Alert Android App. The app sends device's GPS location to another nearby device using Bluetooth on detection of emergency. Two methods have been discussed for detecting the level of emergency based on surrounding audio level and acceleration of the device. 
 
 **See the demo video [here](https://www.youtube.com/watch?v=-zVNOG2WCnU&list=PLoLZwK9ryVfe_2H1-wBAL3OWbL5Du3fRt).**
 
